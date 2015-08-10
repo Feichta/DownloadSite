@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- The next 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Content for the search engines -->
+<meta name="description"
+	content="Download RSS Reader by Fabian Feichter">
+<meta name="author" content="Fabian Feichter">
+<!-- Favicon for this site -->
+<link rel="icon" type="image/png" href="favicon.png" />
+<!-- Title -->
+<title>RSS Reader | Fabian Feichter</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap-Image-Gallery (blueimp) -->
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+<!-- Custom CSS -->
+<link href="css/article.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src	="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<!-- Brand -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="http://www.ffeichta.com/download/">Downloads</a>
+			</div>
+			<!-- Links -->
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="http://www.ffeichta.com/download/notelist.html">Notelist</a></li>
+					<li><a
+						href="http://www.ffeichta.com/download/imagecompress.html">Image
+							Compress</a></li>
+					<li><a href="http://www.ffeichta.com/download/tictactoe.html">Tic
+							Tac Toe</a></li>
+					<li><a
+						href="http://www.ffeichta.com/download/downloadsite.html">Download
+							Site</a></li>
+					<li class="active"><a
+						href="http://www.ffeichta.com/download/rssreader.html">RSS
+							Reader</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Article -->
+	<div class="col-md-6 col-md-offset-3">
+		<div class="top">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="padding">
+						<!-- Title -->
+						<h3>RSS Reader</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+	<div id="blueimp-gallery" class="blueimp-gallery"
+		data-use-bootstrap-modal="false">
+		<!-- The container for the modal slides -->
+		<div class="slides"></div>
+		<!-- Controls for the borderless lightbox -->
+		<h3 class="title"></h3>
+		<a class="prev">‹</a> <a class="next">›</a> <a class="close">×</a> <a
+			class="play-pause"></a>
+		<ol class="indicator"></ol>
+		<!-- The modal dialog, which will be used to wrap the lightbox content -->
+		<div class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" aria-hidden="true">&times;</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body next"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default pull-left prev">
+							<i class="glyphicon glyphicon-chevron-left"></i> Previous
+						</button>
+						<button type="button" class="btn btn-primary next">
+							Next <i class="glyphicon glyphicon-chevron-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script
+		src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script
+		src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+	<script src="js/bootstrap-image-gallery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+fix bug between two pcs
+make screenshot of netstat
