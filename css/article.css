@@ -95,3 +95,17 @@ img {
 		font-size: 16px;
 	}
 }
+
+@media ( min-width :992px) and (max-width:1199px) {
+	.padding {
+		padding-top: 0;
+		padding-right: 0;
+		padding-left: 0;
+		padding-bottom: 0;
+		margin-top: 0;
+	}
+	.panel-body {
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+}
