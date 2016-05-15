@@ -174,16 +174,16 @@ a {
 
 .fifth_tile {
 	background: -webkit-linear-gradient(left top, rgba(235, 22, 0, 1.0),
-		rgba(255, 205, 40, 1.0) ), url("../img/tiles/rssreader_tile.png");
+		rgba(255, 205, 40, 1.0) ), url("../img/tiles/runnergy_tile.png");
 	/* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(bottom right, rgba(235, 22, 0, 1.0),
-		rgba(255, 205, 40, 1.0) ), url("../img/tiles/rssreader_tile.png");
+		rgba(255, 205, 40, 1.0) ), url("../img/tiles/runnergy_tile.png");
 	/* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(bottom right, rgba(235, 22, 0, 1.0),
-		rgba(255, 205, 40, 1.0) ), url("../img/tiles/rssreader_tile.png");
+		rgba(255, 205, 40, 1.0) ), url("../img/tiles/runnergy_tile.png");
 	/* For Firefox 3.6 to 15 */
 	background: linear-gradient(to bottom right, rgba(235, 22, 0, 1.0),
-		rgba(255, 205, 40, 1.0) ), url("../img/tiles/rssreader_tile.png");
+		rgba(255, 205, 40, 1.0) ), url("../img/tiles/runnergy_tile.png");
 	/* Standard syntax (must be last) */
 	display: inline-block;
 	box-sizing: border-box;
@@ -194,31 +194,31 @@ a {
 
 .fifth_tile:HOVER {
 	background: -webkit-linear-gradient(left top, rgba(235, 22, 0, 0.85),
-		rgba(255, 205, 40, 0.85) ), url("../img/tiles/rssreader_tile.png");
+		rgba(255, 205, 40, 0.85) ), url("../img/tiles/runnergy_tile.png");
 	/* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(bottom right, rgba(235, 22, 0, 0.85),
-		rgba(255, 205, 40, 0.85) ), url("../img/tiles/rssreader_tile.png");
+		rgba(255, 205, 40, 0.85) ), url("../img/tiles/runnergy_tile.png");
 	/* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(bottom right, rgba(235, 22, 0, 0.85),
-		rgba(255, 205, 40, 0.85) ), url("../img/tiles/rssreader_tile.png");
+		rgba(255, 205, 40, 0.85) ), url("../img/tiles/runnergy_tile.png");
 	/* For Firefox 3.6 to 15 */
 	background: linear-gradient(to bottom right, rgba(235, 22, 0, 0.85),
-		rgba(255, 205, 40, 0.85) ), url("../img/tiles/rssreader_tile.png");
+		rgba(255, 205, 40, 0.85) ), url("../img/tiles/runnergy_tile.png");
 	/* Standard syntax (must be last) */
 }
 
 .sixth_tile {
-	background: -webkit-linear-gradient(left top, rgba(245, 0, 118, 1.0),
-		rgba(245, 150, 245, 1.0) ), url("../img/tiles/rssreader_tile.png");
+	background: -webkit-linear-gradient(left top, rgba(245, 0, 118, 0.85),
+		rgba(245, 98, 245, 0.85) ), url("../img/tiles/runnergy_tile.png");
 	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, rgba(245, 0, 118, 1.0),
-		rgba(245, 150, 245, 1.0) ), url("../img/tiles/rssreader_tile.png");
+	background: -o-linear-gradient(bottom right, rgba(245, 0, 118, 0.85),
+		rgba(245, 98, 245, 0.85) ), url("../img/tiles/runnergy_tile.png");
 	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, rgba(245, 0, 118, 1.0),
-		rgba(245, 150, 245, 1.0) ), url("../img/tiles/rssreader_tile.png");
+	background: -moz-linear-gradient(bottom right, rgba(245, 0, 118, 0.85),
+		rgba(245, 98, 245, 0.85) ), url("../img/tiles/runnergy_tile.png");
 	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, rgba(245, 0, 118, 1.0),
-		rgba(245, 150, 245, 1.0) ), url("../img/tiles/rssreader_tile.png");
+	background: linear-gradient(to bottom right, rgba(245, 0, 118, 0.85),
+		rgba(245, 98, 245, 0.85) ), url("../img/tiles/runnergy_tile.png");
 	/* Standard syntax (must be last) */
 	display: inline-block;
 	box-sizing: border-box;
@@ -228,17 +228,17 @@ a {
 }
 
 .sixth_tile:HOVER {
-	background: -webkit-linear-gradient(left top, rgba(245, 0, 118, 0.85),
-		rgba(245, 150, 245, 0.85) ), url("../img/tiles/rssreader_tile.png");
+	background: -webkit-linear-gradient(left top, rgba(245, 0, 118, 0.65),
+		rgba(245, 150, 245, 0.65) ), url("../img/tiles/runnergy_tile.png");
 	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, rgba(245, 0, 118, 0.85),
-		rgba(245, 150, 245, 0.85) ), url("../img/tiles/rssreader_tile.png");
+	background: -o-linear-gradient(bottom right, rgba(245, 0, 118, 0.65),
+		rgba(245, 150, 245, 0.65) ), url("../img/tiles/runnergy_tile.png");
 	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, rgba(245, 0, 118, 0.85),
-		rgba(245, 150, 245, 0.85) ), url("../img/tiles/rssreader_tile.png");
+	background: -moz-linear-gradient(bottom right, rgba(245, 0, 118, 0.65),
+		rgba(245, 150, 245, 0.65) ), url("../img/tiles/runnergy_tile.png");
 	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, rgba(245, 0, 118, 0.85),
-		rgba(245, 150, 245, 0.85) ), url("../img/tiles/rssreader_tile.png");
+	background: linear-gradient(to bottom right, rgba(245, 0, 118, 0.65),
+		rgba(245, 150, 245, 0.65) ), url("../img/tiles/runnergy_tile.png");
 	/* Standard syntax (must be last) */
 }
 

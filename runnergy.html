@@ -11,7 +11,7 @@
 <!-- Favicon for this site -->
 <link rel="icon" type="image/png" href="favicon.png" />
 <!-- Title -->
-<title>Notelist | Fabian Feichter</title>
+<title>Runnergy | Fabian Feichter</title>
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Bootstrap-Image-Gallery (blueimp) -->
@@ -47,7 +47,7 @@
 			<!-- Links -->
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a
+					<li><a
 						href="http://www.ffeichta.com/download/notelist.html">Notelist</a></li>
 					<li><a
 						href="http://www.ffeichta.com/download/imagecompress.html">Image
@@ -59,7 +59,7 @@
 							Site</a></li>
 					<li><a href="http://www.ffeichta.com/download/udpchat.html">UDP
 							Chat</a></li>
-					<li><a href="http://www.ffeichta.com/download/runnergy.html">Runnergy</a></li>
+					<li class="active"><a href="http://www.ffeichta.com/download/runnergy.html">Runnergy</a></li>
 				</ul>
 			</div>
 		</div>
@@ -71,45 +71,54 @@
 				<div class="panel-body">
 					<div class="padding">
 						<!-- Title -->
-						<h3>Notelist</h3>
+						<h3>Runnergy</h3>
 						<!-- Header image -->
-						<img src="/download/img/header/notelist_header.png"
+						<img src="/download/img/header/runnergy_header.png"
 							class="img-responsive" alt="">
 						<div class="clearance"></div>
 						<!-- Text -->
 						<p>
-							<b>This Android App manages your school grades. You can add,
-								change and delete subjects and grades. You have the average
-								always in view, which considers the weighting of your grades.
-								The stave goes from one to ten.<br>Furthermore, it will
-								allow you to export your subjects and grades and import it at a
-								later time. Thus it's possible to transfer your subjects and
-								grades to another device.
+							<b>Runnergy is an Android application, which is able to
+								record an activity, which you covered during a sporting
+								activity, for example, running or cycling. Before you start, you
+								tell the app to start tracking your activity and when you are
+								finished, Runnergy calculates the distance and the average speed
+								and lets you view the route on a map. <br>If you decide to
+								do the same activity one more time, you can compete against
+								yourself.
 							</b>
 						</p>
 						<div class="clearance"></div>
-						<p>
-							The backup is saved in the following path: <i>"/sdcard/com.ffeichta.notenliste/notenliste_backup.db</i>.
-							From there you can import it any time. Because of this feature
-							the app needs the read/write permission for the storage.
-						</p>
-						<p>
-							The app sticks to the directive of <a
-								href="https://www.google.com/design/spec/material-design/introduction.html"
-								target="_blank">Material Design</a>. Material Design is a design
-							principle by Google for apps on Android. They announced the
-							tenets and specifics of material design at the Google I/O 2014.
-							Meanwhile Google updated Android (5.x) and all Google Apps to
-							Material Design.
-						</p>
-						<p>
-							<i>Notelist</i> is available from Android 4.0 (Ice Cream
-							Sandwich).
-						</p>
+						<p>The app tells you in certain intervals if you performed
+							better or worse compared to a saved activity you did in the past.
+							You compete against yourself. It is possible to compete against a
+							specific, the best, closest-to-average or the worst performance
+							of an activity.</p>
+						<p>The reason why I developed this application is that I do a
+							lot of cycling in my freetime. For me it is important to get
+							better every time. When I get better it is the biggest success
+							for me. For this reason I time myself when I do long distances.
+							The longest distances I ride on my bike are up to 50 kilometres,
+							usually in the mountains. I make such long routes a few times a
+							month. In the past, I only had the opportunity to figure out the
+							total time difference at the end of doing a route multiple times,
+							not the time difference during the activity. Important statistics
+							like the distance I travelled and the average speed were also
+							unknown.</p>
+						<p>Now I have Runnergy that tracks my activities on my phone.
+							The app manages my activities and shows me their characteristics
+							such as the average speed. The best comes when I do the same
+							activity again: In a notification I can see how good or bad I am
+							anytime. It is not even necessary to unlock the phone, a quick
+							look to a notification is enough to see the difference. If I am
+							slower than before, it can be a incentive to cycle faster.</p>
+						<p>Runnergy is my matura project of the school year 2015/16.</p>
 						<p>
 							Source code available on <a
-								href="https://github.com/Feichta/Notelist" target="_blank">GitHub</a>.
-							<br>Visit documentation <a href="/download/doc/notelist/">here</a>.
+								href="https://github.com/Feichta/Runnergy" target="_blank">GitHub</a>.
+							<br>Visit JavaDoc <a href="/download/doc/runnergy/">here</a>
+							and the documentation <a
+								href="/download/doc/runnergy/Runnergy.pdf">here</a>.
 						</p>
 						<div class="clearance_middle"></div>
 						<!-- Features panel -->
@@ -119,19 +128,12 @@
 							</div>
 							<ul class="list-group">
 								<li class="list-group-item background">Add/change/delete
-									subjects</li>
+									tracks</li>
 								<li class="list-group-item background">Add/change/delete
-									grades</li>
-								<li class="list-group-item background">Set weighting on
-									each grade</li>
-								<li class="list-group-item background">Calculate average of
-									a subject</li>
-								<li class="list-group-item background">Calculate average of
-									all subjects</li>
-								<li class="list-group-item background">Highlight the
-									negative (< 5.5) subjects and grades</li>
-								<li class="list-group-item background">Import/Export
-									subjects with their grades</li>
+									activities</li>
+								<li class="list-group-item background">FusedLocationProviderAPI</li>
+								<li class="list-group-item background">Set the unit of
+									length, format of date, type of map</li>
 								<li class="list-group-item background">Document changes to
 									the database in <a
 									href="http://developer.android.com/tools/help/logcat.html"
@@ -139,49 +141,54 @@
 								</li>
 								<li class="list-group-item background">Material Design</li>
 								<li class="list-group-item background">Languages:
-									German/English/Italian</li>
+									German/English</li>
 							</ul>
 						</div>
 						<div class="clearance_big"></div>
 						<!-- Gallery -->
 						<div id="links">
-							<a href="/download/img/article/notelist/subjects.png"
+							<a href="/download/img/article/runnergy/start.png"
 								title="Main activity with all subjects" data-gallery> <img
 								class="img-thumbnail"
-								src="/download/img/thumbnail/notelist/subjects.png"
-								height="169px">
-							</a> <a href="/download/img/article/notelist/grades.png"
+								src="/download/img/thumbnail/runnergy/start.png" height="169px">
+							</a> <a href="/download/img/article/runnergy/tracking.png"
 								title="All grades of a subject" data-gallery> <img
 								class="img-thumbnail"
-								src="/download/img/thumbnail/notelist/grades.png" height="169px">
-							</a> <a href="/download/img/article/notelist/grade.png"
+								src="/download/img/thumbnail/runnergy/tracking.png"
+								height="169px">
+							</a> <a href="/download/img/article/runnergy/tracks.png"
 								title="Right click menu on a subject" data-gallery> <img
 								class="img-thumbnail"
-								src="/download/img/thumbnail/notelist/grade.png" height="169px">
-							</a> <a href="/download/img/article/notelist/date.png"
+								src="/download/img/thumbnail/runnergy/tracks.png" height="169px">
+							</a> <a href="/download/img/article/runnergy/activities.png"
 								title="Add subject" data-gallery> <img class="img-thumbnail"
-								src="/download/img/thumbnail/notelist/date.png" height="169px">
-							</a> <a href="/download/img/article/notelist/add_subject.png"
+								src="/download/img/thumbnail/runnergy/activities.png"
+								height="169px">
+							</a> <a href="/download/img/article/runnergy/map.png"
 								title="Change grade" data-gallery> <img
 								class="img-thumbnail"
-								src="/download/img/thumbnail/notelist/add_subject.png"
-								height="169px">
-							</a> <a href="/download/img/article/notelist/about.png"
+								src="/download/img/thumbnail/runnergy/map.png" height="169px">
+							</a> <a href="/download/img/article/runnergy/comparison.png"
 								title="About this app" data-gallery> <img
 								class="img-thumbnail"
-								src="/download/img/thumbnail/notelist/about.png" height="169px">
+								src="/download/img/thumbnail/runnergy/comparison.png"
+								height="169px">
+							</a> </a> <a href="/download/img/article/runnergy/about.png"
+								title="About this app" data-gallery> <img
+								class="img-thumbnail"
+								src="/download/img/thumbnail/runnergy/about.png" height="169px">
 							</a>
 						</div>
 						<!-- Download -->
 						<div class="text-center">
 							<!-- Google Play -->
 							<a
-								href='https://play.google.com/store/apps/details?id=com.ffeichta.notenliste'
+								href='https://play.google.com/store/apps/details?id=com.ffeichta.runnergy'
 								target="_blank"><img alt='Get it on Google Play'
 								src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'
 								height="70px" /></a>
 							<!-- APK file -->
-							<a href="/download/files/Notelist.apk"
+							<a href="/download/files/Runnergy.apk"
 								class="btn btn-success btn-large apk" download><i
 								class="icon-white icon-download-alt"></i> Download APK</a>
 						</div>
