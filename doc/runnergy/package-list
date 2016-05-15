@@ -1,0 +1,13 @@
+com.ffeichta.runnergy
+com.ffeichta.runnergy.gui.activities
+com.ffeichta.runnergy.gui.adapter
+com.ffeichta.runnergy.gui.dialogfactory
+com.ffeichta.runnergy.gui.fragments
+com.ffeichta.runnergy.gui.listener
+com.ffeichta.runnergy.gui.message
+com.ffeichta.runnergy.gui.services
+com.ffeichta.runnergy.gui.tabs
+com.ffeichta.runnergy.gui.threads
+com.ffeichta.runnergy.model
+com.ffeichta.runnergy.model.enums
+com.ffeichta.runnergy.model.utils
